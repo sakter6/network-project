@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Networking Concepts</title>
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Analytics Monitoring -->
+  <!-- Replace G-XXXXXXX with your real ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-XXXXXXX");
+  </script>
 </head>
+
 <body>
   <header>
     <h1>Networking Concepts</h1>
@@ -20,23 +31,30 @@
     <h2>DNS</h2>
     <p>DNS (Domain Name System) converts a website name into an IP address.</p>
     <p>
-When a user enters a website URL, DNS helps the browser find the correct server that hosts the website.
+      When a user enters a website URL, DNS helps the browser find the correct server that hosts the website.
     </p>
 
     <h2>IP Addressing</h2>
-    <p>An IP address identifies a device or server on the Internet.
-Websites can use two types of addresses:</p>
+    <p>An IP address identifies a device or server on the Internet. Websites can use two types of addresses:</p>
     <p>
-IPv4 – example: 185.199.108.153
-IPv6 – example: 2606:50c0:8000::153</p>
+      IPv4 – example: 185.199.108.153<br>
+      IPv6 – example: 2606:50c0:8000::153
+    </p>
 
     <h2>Protocols</h2>
-    <p>HTTP is the protocol used to transfer web pages between a browser and a server.
-HTTPS is the secure version of HTTP and encrypts the communication to protect data.</p>
+    <p>
+      HTTP is the protocol used to transfer web pages between a browser and a server.
+      HTTPS is the secure version of HTTP and encrypts the communication to protect data.
+    </p>
+
+    <!-- Optional: small performance demo -->
+    <h3>Performance Demo</h3>
+    <p>This image uses lazy loading.</p>
+    <img src="https://via.placeholder.com/300" alt="Network image" loading="lazy">
   </main>
 
   <footer>
-    <p> 2026 Network Project </p>
+    <p>2026 Network Project</p>
   </footer>
 </body>
 </html>

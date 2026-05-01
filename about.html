@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Analytics Monitoring -->
+  <!-- Replace G-XXXXXXX with your real ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "G-XXXXXXX");
+  </script>
 </head>
+
 <body>
   <header>
     <h1>About Our Team</h1>
@@ -17,7 +28,17 @@
   </header>
 
   <main>
-    <p>This project demonstrates how DNS, IP addressing, protocols, and security are applied in a public website deployment.</p>
+    <p>
+      This project demonstrates how DNS, IP addressing, protocols, and security are applied in a public website deployment.
+    </p>
+
+    <h3>Project Improvements</h3>
+    <ul>
+      <li>Enabled HTTPS for secure communication</li>
+      <li>Implemented XSS protection using DOMPurify</li>
+      <li>Optimized performance using lazy loading</li>
+      <li>Added Google Analytics for traffic monitoring</li>
+    </ul>
   </main>
 
   <footer>
